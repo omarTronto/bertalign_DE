@@ -1,5 +1,26 @@
 # Bertalign
 
+As a part of the paper ["DEplain: A German Parallel Corpus with Intralingual Translations into Plain Language for Sentence and Document Simplification."](https://arxiv.org/abs/2305.18939), we adapted and evaluated the popular alignment methods for German text simplification automatic alignment.
+
+## DEplain's adaptation to the original method:
+
+- Using a German sentence transformer model to get the embeddings.
+
+## DEplain's adaptation usage
+
+After cloning the repository
+
+1. Setup the environment
+```
+conda create --name bertalign python=3.8.16
+conda activate bertalign
+pip install -r requirements.txt
+```
+
+2. Go through the `procedure.ipynb`
+
+## Original method's README starts here
+
 An automatic mulitlingual sentence aligner.
 
 Bertalign is designed to facilitate the construction of multilingual parallel corpora and translation memories, which have a wide range of applications in translation-related research such as corpus-based translation studies, contrastive linguistics, computer-assisted translation, translator education and machine translation.
